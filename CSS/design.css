@@ -1,7 +1,8 @@
-body {
+.header {
   background-image: url("../Img/landing.jpg");
+  height: 600px;
   width: 100%
-  height: 20%
+
 }
 
 #heading {
@@ -9,4 +10,51 @@ body {
   font-family: "Pontano Sans", sans-serif;
   text-align: center;
   margin:
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 40px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 6px;
+  transition: 0.4s;
+}
+
+#image {
+    float: right;
+    margin : 265px 15px 80px 45px;
+  }
+
+#image ul li {
+    float : left;
+      list-style: none;
+  }
+
+#fastfood img {  padding: 0;
+  margin: 0;
+}
+
+#fastfood2 img {
+  padding: 0;
+  margin: 0;
+}
+
+#takeaway h2 {
+  color: black;
+  background-color: white;
+}
+
+#takeaway h3 {
+  color: black;
+  background-color: white;
+}
+
+#takeaway p {
+  color: black;
+  background-color: white;
 }
