@@ -22,39 +22,38 @@
   height: 3px;
   background-color: #ffffff;
   margin: 6px;
-  transition: 0.4s;
+
 }
 
-#image {
+.image {
     float: right;
-    margin : 265px 15px 80px 45px;
   }
 
-#image ul li {
+.image ul li {
     float : left;
-      list-style: none;
+    list-style: none;
   }
 
-#fastfood img {  padding: 0;
-  margin: 0;
+.happy-hour {
+    background-color: #eaeae1;
+    height: 105px;
 }
 
-#fastfood2 img {
-  padding: 0;
-  margin: 0;
-}
-
-#takeaway h2 {
+.happy-hour p {
+  text-align: center;
   color: black;
-  background-color: white;
+  font-family: "Pontano Sans", sans-serif;
+  font-size: 26px;
 }
 
-#takeaway h3 {
-  color: black;
-  background-color: white;
+.party-time {
+  background-color: #F15A29;
+  height: 105px;
 }
 
-#takeaway p {
-  color: black;
-  background-color: white;
+.party-time p {
+  text-align: center;
+  color: white;
+  font-family: "Pontano Sans", sans-serif;
+  font-size: 26px
 }
